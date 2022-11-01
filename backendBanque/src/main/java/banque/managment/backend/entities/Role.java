@@ -9,10 +9,10 @@ import javax.persistence.Id;
 public class Role {
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
-	private long id;
+	private Long id;
 	private String code;
 	private String label;
-	public long getId() {
+	public Long getId() {
 		return id;
 	}
 	public void setId(long id) {
